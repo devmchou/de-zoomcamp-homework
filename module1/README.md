@@ -77,7 +77,7 @@ For the trips in November 2025 (lpep_pickup_datetime between '2025-11-01' and '2
 - [ ] 8,254
 - [ ] 8,421
 
-Ran Jupyter notebook [module1.ipynb]()
+Ran Jupyter notebook [module1.ipynb](module1.ipynb)
 
 Related code:
 
@@ -111,7 +111,7 @@ Use the pick up time for your calculations.
 - [ ] 2025-11-23
 - [ ] 2025-11-25
 
-Ran Jupyter notebook [module1.ipynb]()
+Ran Jupyter notebook [module1.ipynb](module1.ipynb)
 
 Related code:
 
@@ -136,7 +136,7 @@ Which was the pickup zone with the largest `total_amount` (sum of all trips) on 
 - [ ] Morningside Heights
 - [ ] Forest Hills
 
-Ran Jupyter notebook [module1.ipynb]()
+Ran Jupyter notebook [module1.ipynb](module1.ipynb)
 
 Related code:
 ```
@@ -169,7 +169,7 @@ Note: it's `tip` , not `trip`. We need the name of the zone, not the ID.
 - [ ] East Harlem North
 - [ ] LaGuardia Airport
 
-Ran Jupyter notebook [module1.ipynb]()
+Ran Jupyter notebook [module1.ipynb](module1.ipynb)
 
 Related code:
 ```
