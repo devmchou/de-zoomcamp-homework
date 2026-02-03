@@ -4,15 +4,22 @@ DataTalksClub data engineering Zoom camp - homework repo
 # Module 2 Homework: Workflow Orchestration
 
 Ran Kestra yaml [taxi_rowcount_annual_revised.yaml](taxi_rowcount_annual_revised.yaml)
+with several test inputs
 
-From the Kestra outputs
+Checked Kestra outputs:
 
-Inspected the get_file_size task:
+Inspected the get_file_size task for the following run:
+- Run (Year: 2020, Month: 12, Taxi: Yellow)
+
 ```
 The size of the file is 134481400 bytes.
 ```
 
-Inspected the calculate_sum task:
+Inspected the calculate_sum task for the following runs:
+- Run (Year: 2020, Month: All, Taxi: Yellow)
+- Run (Year: 2020, Month: All, Taxi: Green)
+- Run (Year: 2021, Month: 03, Taxi: Yellow)
+
 ```
 Yellow taxi total for 2020:         The total sum is: 24648499
 Green taxi total for 2020:          The total sum is: 1734051
