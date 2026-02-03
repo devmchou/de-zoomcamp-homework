@@ -47,7 +47,7 @@ tasks:
   - id: get_file_size
     type: io.kestra.plugin.core.log.Log
     message: |
-      The size of the file is {{ fileSize(var.data) }} bytes.
+      The size of the file is {{ fileSize(render(vars.data)) }} bytes.
 
   - id: if_yellow_taxi
     type: io.kestra.plugin.core.flow.If
