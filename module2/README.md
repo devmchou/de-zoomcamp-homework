@@ -1,7 +1,7 @@
 # de-zoomcamp-homework
 DataTalksClub data engineering Zoom camp - homework repo
 
-# Module 2 Homework: Docker & SQL
+# Module 2 Homework: Workflow Orchestration
 
 Ran Kestra yaml [taxi_rowcount_annual_revised.yaml](taxi_rowcount_annual_revised.yaml)
 
