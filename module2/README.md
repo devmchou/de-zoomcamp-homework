@@ -3,7 +3,7 @@ DataTalksClub data engineering Zoom camp - homework repo
 
 # Module 2 Homework: Docker & SQL
 
-Ran Kestra yaml [taxi_rowcount_annual_revised.yaml](taxi_rowcount_annual_revised)
+Ran Kestra yaml [taxi_rowcount_annual_revised.yaml](taxi_rowcount_annual_revised.yaml)
 
 From the Kestra outputs
 
