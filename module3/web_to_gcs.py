@@ -42,7 +42,6 @@ def web_to_gcs_parquet(year, service):
         file_name = f"{service}_tripdata_{year}-{month}.parquet"
 
         # download it using requests
-        # request_url = f"{init_url}{service}/{file_name}"
         request_url = f"{init_url}/{file_name}"
         r = requests.get(request_url)
         open(file_name, 'wb').write(r.content)
