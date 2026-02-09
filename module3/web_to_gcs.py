@@ -13,25 +13,9 @@ Pre-reqs:
 
 # services = ['fhv','green','yellow']
 # https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet
-# https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-02.parquet        
-
-# init_url = 'https://github.com/DataTalksClub/nyc-tlc-data/releases/download/'
 init_url = 'https://d37ci6vzurychx.cloudfront.net/trip-data'
 # switch out the bucketname
 BUCKET = os.environ.get("GCP_GCS_BUCKET", "dtc-data-lake-bucketname")
-
-def download_file(month):
-    url = f"{BASE_URL}{month}.parquet"
-    file_path = os.path.join(DOWNLOAD_DIR, f"yellow_tripdata_2024-{month}.parquet")
-
-    try:
-        print(f"Downloading {url}...")
-        urllib.request.urlretrieve(url, file_path)
-        print(f"Downloaded: {file_path}")
-        return file_path
-    except Exception as e:
-        print(f"Failed to download {url}: {e}")
-        return None
     
 def upload_to_gcs(bucket, object_name, local_file):
     """
