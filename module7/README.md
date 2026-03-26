@@ -145,8 +145,7 @@ Which hour had the highest total tip amount?
 - [ ] 2025-10-22 08:00:00
 - [ ] 2025-10-30 16:00:00
 
----
-Work Notes:
+## Work Notes
 
 Producer script:  [producer.ipynb](notebooks/producer.ipynb)
 
