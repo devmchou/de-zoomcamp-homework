@@ -152,7 +152,7 @@ Producer script:  [producer.ipynb](notebooks/producer.ipynb)
 
 Question 3:  Used script [consumer.py](consumer.py)
 
-Created the following tables in PostgresSQL:
+Questions 4-6:  Created the following tables in PostgresSQL:
 
 ```
 CREATE TABLE processed_events_aggregated (
@@ -181,7 +181,7 @@ Ran these scripts
 - [question5.py](src/job/question5.py)
 - [question6.py](src/job/question6.py)
 
-For question 6, ran SQL in pgcli:
+For question 5, ran SQL in pgcli:
 ```
 select * from processed_sessionevents_aggregated order by num_trips desc limit 3;
 ```
